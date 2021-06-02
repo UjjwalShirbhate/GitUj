@@ -1,0 +1,316 @@
+id: 6c13c14725a715be3f1cca
+created: 2021-05-22T04:26:32.458Z
+projectId: cnz_LL5Mh0Gda56EUaDx6Q
+projectName: Tatacliq
+owner: Harsh Piparwar
+protocol: 1
+tests:
+  - id: fb7303c3101169a8f49216
+    name: TataCliqObject1
+    description: ""
+    platform: Android
+    type: Mobile
+    driverType: Appium_Android
+    version: "0.1"
+    creationDate: 2021-05-22T04:26:32.458Z
+    modificationDate: 2021-05-22T05:30:51.771Z
+    settings:
+      appId: iCx__0VnO0edQ1sa8JCNhw
+      automationAssistant: true
+      stepSleepTime: 500
+      stepTimeout: 15000
+      stepSleepTiming: Before
+      stepFailureBehaviorType: Abort
+      stepTakeScreenshotConditionType: Failure
+    application:
+      id: iCx__0VnO0edQ1sa8JCNhw
+      name: Tata CLiQ 1
+      platform: Android
+      androidPackage: com.tul.tatacliq
+      androidActivity: com.tul.tatacliq.activities.SplashActivity
+    steps:
+      - id: 288ea7b0a3b85d8fdc28b2
+        comments: ""
+        enabled: true
+        order: 1
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 53221c01bc4b72724cda9d
+      - id: 1b2bb8526469e7e881acd3
+        comments: ""
+        enabled: true
+        order: 2
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: d788a950b904b9658b25f9
+      - id: db60fbb0c9c221d858a6d4
+        comments: ""
+        enabled: true
+        order: 3
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+        parameterMaps:
+          - direction: Input
+            name: keys
+            value: shirt
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: d788a950b904b9658b25f9
+      - id: d70e3834ad2e3f7080c38d
+        comments: ""
+        enabled: true
+        order: 4
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 3d81a7590f013cd4c213f1
+      - id: 663d16225f8d443948bb64
+        comments: ""
+        enabled: true
+        order: 5
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 7911caa95206f157250c4c
+      - id: 9a7c0923c841f30939ae1c
+        comments: ""
+        enabled: true
+        order: 6
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: d0e898a2dd71608ad689fd
+      - id: e298dcc9331ad15a92c2fc
+        comments: ""
+        enabled: true
+        order: 7
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 5a573357fabd09327cb873
+      - id: 03fbf34657846958fb1c79
+        comments: ""
+        enabled: true
+        order: 8
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 0162cf4158d84d96f812a5
+    parameters: []
+    tags: []
+auxTests: []
+elements:
+  - id: 0162cf4158d84d96f812a5
+    name: com.tul.tatacliq:id/layout_size
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3MjM
+      name: android.widget.LinearLayout
+      source: System
+    locators:
+      - name: ID
+        value: com.tul.tatacliq:id/layout_size
+        priority: 0
+      - name: XPATH
+        value: //android.widget.LinearLayout/android.widget.LinearLayout[2]
+        priority: 1
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]
+        priority: 2
+  - id: 5a573357fabd09327cb873
+    name: com.tul.tatacliq:id/imageViewProduct1
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3MjI
+      name: android.widget.ImageView
+      source: System
+    locators:
+      - name: XPATH
+        value: //android.widget.FrameLayout[3]/android.widget.RelativeLayout[1]/android.view.ViewGroup//android.widget.ImageView[1]
+        priority: 0
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[3]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]
+        priority: 1
+  - id: d0e898a2dd71608ad689fd
+    name: ANDROID.WIDGET.IMAGEBUTTON
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3MjA
+      name: android.widget.ImageButton
+      source: System
+    locators:
+      - name: XPATH
+        value: //android.widget.ImageButton
+        priority: 0
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ImageButton[1]
+        priority: 1
+  - id: 7911caa95206f157250c4c
+    name: com.tul.tatacliq:id/imageViewProduct
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3MjI
+      name: android.widget.ImageView
+      source: System
+    locators:
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup//android.widget.ImageView[1]
+        priority: 0
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]
+        priority: 1
+  - id: 3d81a7590f013cd4c213f1
+    name: Shirts in Formal Wear
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3NTE
+      name: android.widget.TextView
+      source: System
+    locators:
+      - name: XPATH
+        value: //android.widget.TextView[@text = 'Shirts in Formal Wear']
+        priority: 0
+      - name: XPATH
+        value: //android.widget.LinearLayout[2]/android.widget.RelativeLayout/android.widget.TextView
+        priority: 1
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.TextView[1]
+        priority: 2
+  - id: d788a950b904b9658b25f9
+    name: What are you looking for?
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3MTM
+      name: android.widget.EditText
+      source: System
+    locators:
+      - name: ID
+        value: android:id/search_src_text
+        priority: 0
+      - name: XPATH
+        value: //android.widget.EditText[@text = 'What are you looking for?']
+        priority: 1
+      - name: XPATH
+        value: //android.widget.EditText
+        priority: 2
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.SearchView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.EditText[1]
+        priority: 3
+  - id: 53221c01bc4b72724cda9d
+    name: Search TataCLiQ
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3NTE
+      name: android.widget.TextView
+      source: System
+    locators:
+      - name: ID
+        value: com.tul.tatacliq:id/item_search
+        priority: 0
+      - name: XPATH
+        value: //android.widget.TextView[@content-desc = 'Search TataCLiQ']
+        priority: 1
+      - name: XPATH
+        value: //androidx.appcompat.widget.LinearLayoutCompat/android.widget.TextView
+        priority: 2
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/androidx.appcompat.widget.LinearLayoutCompat[1]/android.widget.TextView[1]
+        priority: 3
+projectParameters: []
+addons: []
